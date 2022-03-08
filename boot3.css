@@ -1,0 +1,48 @@
+
+.fs{
+    font-size: 15px;
+}
+.ms{
+    font-size: 20px;
+}
+.hr{
+    width: 100%;
+    color: red;
+    size: 2px;
+}
+.account::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 60%;
+    width: 2px;
+    background-color: #e5e5e5;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.sidebar {
+    min-height: 100vh;
+}
+.webname{
+    text-decoration: none;
+}
+
+.shadowbox {
+    /* width: 15em; */
+    box-shadow: 2px 0px 5px #444;
+    padding: 8px 12px;
+    background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+  }
+
+.cd{
+    border: none !important;
+}
+.actions{
+    color: rgb(160, 160, 160)
+}
+@media  (min-width: 300px) {
+    body {
+        /* display: none; */
+    }
+}
